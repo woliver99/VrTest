@@ -1,0 +1,42 @@
+# Godot 4+ specific ignores
+.godot/
+
+# Godot-specific ignores
+.import/
+export.cfg
+export_presets.cfg
+
+# Imported translations (automatically generated from CSV files)
+*.translation
+
+# Mono-specific ignores
+.mono/
+data_*/
+mono_crash.*.json
+
+
+# Android
+android/build/.gradle
+android/build/**/build/
+!android/build/src/**/build/
+
+# Ignore Gradle GUI config
+android/build/gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!android/build/gradle-wrapper.jar
+
+# Avoid ignore Gradle wrapper properties
+!android/build/gradle-wrapper.properties
+
+# Cache of project
+android/build/.gradletasknamecache
+
+# Eclipse Gradle plugin generated files
+# Eclipse Core
+android/build/.project
+# JDT-specific (Eclipse Java Development Tools)
+android/build/.classpath
+
+android/build/libs/debug/godot-lib.template_debug.aar
+android/build/libs/release/godot-lib.template_release.aar
